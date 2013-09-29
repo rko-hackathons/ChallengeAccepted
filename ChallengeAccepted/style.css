@@ -1,0 +1,144 @@
+body{
+	font-family: Calibri;
+}
+
+.
+#view_title{
+	color: #585858;
+	text-decoration: none;
+}
+
+#view_date{
+	font-size: 90%;
+	color: #707070;
+}
+
+#bottom_feed{
+	font-size: 90%;
+	color: #707070;
+}
+
+#feed_title{
+	color: #585858;
+	text-decoration: none;
+}
+
+#reglog{
+	font-size: 120%;
+	float: right;
+}
+
+#reglog1{
+	text-decoration: none;
+	color: black;
+}
+#reglog2{
+	text-decoration: none;
+	color: black;
+}
+
+#logout{
+	font-size: 120%;
+	float:right;
+}
+
+#logout1{
+	text-decoration: none;
+	color: black;
+}
+
+#wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header{
+	height: 120px;
+}
+
+#menu{
+	/padding: 1px;
+}
+
+#main_content{
+	width: 980px;
+	padding: 10px;
+	float: left;
+	min-height: 500px;
+	background-color: #F0F0F0;
+	border: 2px solid;
+	border-color: #505050 ;
+}
+
+.clear{
+	clear:both;
+}
+
+.main_table{
+	border-spacing: 0px;
+	table-layout: auto;
+}
+
+#feedrow{
+	/outline: thin solid #E0E0E0;
+}
+
+#footer{
+	float: left;
+	text-align: center;
+	width: 980px;
+
+}
+
+#logo_title{
+    display: block;
+    margin: 0 auto;	
+}
+
+#arrow{
+	text-decoration: none;
+	color: red;
+}
+
+
+#feed_number{
+	width: 1%;
+}
+
+#feed_content{
+	width: 80%;
+}
+
+#main_nav { 
+	list-style: none; 
+	margin: 0; 
+	padding: 0;
+	overflow:hidden;
+	float: left;
+}
+
+#main_nav li { 
+	float: left;
+}
+
+#main_nav li a {
+	color: black;
+	display:block; 
+	text-decoration:none; 
+	text-align:center; 
+	padding: 10px; 
+	text-transform:uppercase; 
+	border:1px solid #607987; 
+	border-top:0px solid #607987; 
+	border-bottom:0px solid #607987; 
+	border-left:0px solid #607987; 
+}
+
+#main_nav li a.active {
+	background-color:black;
+}
+
+#main_nav li a:hover {
+	background-color:white; 
+	color:red;
+}
